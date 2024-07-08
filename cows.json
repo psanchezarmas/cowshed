@@ -1,6 +1,6 @@
 [
     {
-        "name": "Betty",
+        "name": "Lando Norris",
         "sex": "Male",
         "birthdate": "2019-02-11T03:21:00.000000",
         "condition": "Healthy",
@@ -19,5 +19,68 @@
             "amount_l": 5
         },
         "has_calves": true
+    },
+    {
+        "name": "Lewis Hamilton",
+        "sex": "Female",
+        "birthdate": "2020-05-15T08:45:00.000000",
+        "condition": "Healthy",
+        "weight": {
+            "mass_kg": 950,
+            "last_measured": "2022-11-01T10:30:00.000000"
+        },
+        "feeding": {
+            "amount_kg": 4,
+            "cron_schedule": "0 */4 * * *",
+            "last_measured": "2022-11-02T09:00:00.000000"
+        },
+        "milk_production": {
+            "last_milk": "2022-11-02T07:30:00.000000",
+            "cron_schedule": "0 7,11,15,19 * * *",
+            "amount_l": 4.5
+        },
+        "has_calves": false
+    },
+    {
+        "name": "Max Verstappen",
+        "sex": "Male",
+        "birthdate": "2020-03-20T14:00:00.000000",
+        "condition": "Healthy",
+        "weight": {
+            "mass_kg": 1050,
+            "last_measured": "2022-11-02T12:00:00.000000"
+        },
+        "feeding": {
+            "amount_kg": 6,
+            "cron_schedule": "0 */5 * * *",
+            "last_measured": "2022-11-02T10:30:00.000000"
+        },
+        "milk_production": {
+            "last_milk": "2022-11-02T08:00:00.000000",
+            "cron_schedule": "0 9,13,17,21 * * *",
+            "amount_l": 6.5
+        },
+        "has_calves": true
+    },
+    {
+        "name": "Daisy",
+        "sex": "Female",
+        "birthdate": "",
+        "condition": "",
+        "weight": {
+            "mass_kg": 0.0,
+            "last_measured": ""
+        },
+        "feeding": {
+            "amount_kg": 0.0,
+            "cron_schedule": "",
+            "last_measured": ""
+        },
+        "milk_production": {
+            "last_milk": "",
+            "cron_schedule": "",
+            "amount_l": 0.0
+        },
+        "has_calves": false
     }
 ]

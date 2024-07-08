@@ -1,1 +1,1 @@
-from .app import cowshed
+from .app import app

@@ -7,4 +7,5 @@ cowshed.egg-info/dependency_links.txt
 cowshed.egg-info/entry_points.txt
 cowshed.egg-info/requires.txt
 cowshed.egg-info/top_level.txt
+tests/__init__.py
 tests/test_app.py

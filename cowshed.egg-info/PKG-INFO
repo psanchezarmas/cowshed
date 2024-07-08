@@ -17,3 +17,4 @@ A Flask app for managing a farm.
 
 ```sh
 pip install .
+"# cowshed" 
