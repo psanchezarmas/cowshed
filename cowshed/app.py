@@ -61,6 +61,14 @@ def get_cow(name):
         abort(404)
     return jsonify(cow)
 
+@app.route('/cows/sex/<sex>', methods=['GET'])
+def get_sex(sex):
+    cows = read_data()
+    cow = next((cow for cow in cows if cow['sex'] == sex), None)
+    if cow is None:
+        abort(404)
+    return jsonify(cow)
+
 @app.route('/cows', methods=['POST'])
 def create_cow():
     try:

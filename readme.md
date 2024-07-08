@@ -1,6 +1,6 @@
 # Cowshed
 
-A Flask app for managing a farm.
+NNDAP Assignment
 
 ## Installation
 
