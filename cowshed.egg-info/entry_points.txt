@@ -1,2 +1,0 @@
-[console_scripts]
-run-cowshed = cowshed.app:app.run
