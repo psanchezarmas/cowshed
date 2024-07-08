@@ -61,26 +61,5 @@
             "amount_l": 6.5
         },
         "has_calves": true
-    },
-    {
-        "name": "Daisy",
-        "sex": "Female",
-        "birthdate": "",
-        "condition": "",
-        "weight": {
-            "mass_kg": 0.0,
-            "last_measured": ""
-        },
-        "feeding": {
-            "amount_kg": 0.0,
-            "cron_schedule": "",
-            "last_measured": ""
-        },
-        "milk_production": {
-            "last_milk": "",
-            "cron_schedule": "",
-            "amount_l": 0.0
-        },
-        "has_calves": false
     }
 ]
