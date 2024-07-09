@@ -13,12 +13,10 @@
             "cron_schedule": "0 */6 * * *",
             "last_measured": "2022-11-02T11:00:00.000000"
         },
-        "milk_production": {
-            "last_milk": "2022-11-02T09:00:00.000000",
-            "cron_schedule": "0 8,12,16,20 * * *",
-            "amount_l": 5
-        },
-        "has_calves": true
+        "has_calves": true,
+        "farm_id": "F001",
+        "country": "Spain",
+        "company": "VacaLechera"
     },
     {
         "name": "Lewis Hamilton",
@@ -39,7 +37,10 @@
             "cron_schedule": "0 7,11,15,19 * * *",
             "amount_l": 4.5
         },
-        "has_calves": false
+        "has_calves": false,
+        "farm_id": "F002",
+        "country": "Switzerland",
+        "company": "Milka"
     },
     {
         "name": "Max Verstappen",
@@ -55,11 +56,171 @@
             "cron_schedule": "0 */5 * * *",
             "last_measured": "2022-11-02T10:30:00.000000"
         },
+        "has_calves": true,
+        "farm_id": "F003",
+        "country": "France",
+        "company": "La Vaca que Ríe"
+    },
+    {
+        "name": "Sebastian Vettel",
+        "sex": "Male",
+        "birthdate": "2018-12-05T12:30:00.000000",
+        "condition": "Healthy",
+        "weight": {
+            "mass_kg": 1120,
+            "last_measured": "2022-11-01T09:00:00.000000"
+        },
+        "feeding": {
+            "amount_kg": 5,
+            "cron_schedule": "0 */6 * * *",
+            "last_measured": "2022-11-02T08:00:00.000000"
+        },
+        "has_calves": false,
+        "farm_id": "F001",
+        "country": "Spain",
+        "company": "VacaLechera"
+    },
+    {
+        "name": "Charles Leclerc",
+        "sex": "Female",
+        "birthdate": "2019-04-16T07:45:00.000000",
+        "condition": "Healthy",
+        "weight": {
+            "mass_kg": 980,
+            "last_measured": "2022-11-01T10:30:00.000000"
+        },
+        "feeding": {
+            "amount_kg": 4.5,
+            "cron_schedule": "0 */4 * * *",
+            "last_measured": "2022-11-02T09:30:00.000000"
+        },
         "milk_production": {
             "last_milk": "2022-11-02T08:00:00.000000",
-            "cron_schedule": "0 9,13,17,21 * * *",
-            "amount_l": 6.5
+            "cron_schedule": "0 8,12,16,20 * * *",
+            "amount_l": 5.5
         },
-        "has_calves": true
+        "has_calves": true,
+        "farm_id": "F002",
+        "country": "Switzerland",
+        "company": "Milka"
+    },
+    {
+        "name": "Daniel Ricciardo",
+        "sex": "Male",
+        "birthdate": "2019-08-01T05:00:00.000000",
+        "condition": "Healthy",
+        "weight": {
+            "mass_kg": 1070,
+            "last_measured": "2022-11-01T07:00:00.000000"
+        },
+        "feeding": {
+            "amount_kg": 5.5,
+            "cron_schedule": "0 */6 * * *",
+            "last_measured": "2022-11-02T06:00:00.000000"
+        },
+        "has_calves": false,
+        "farm_id": "F003",
+        "country": "France",
+        "company": "La Vaca que Ríe"
+    },
+    {
+        "name": "Sergio Perez",
+        "sex": "Male",
+        "birthdate": "2018-11-25T14:00:00.000000",
+        "condition": "Healthy",
+        "weight": {
+            "mass_kg": 1130,
+            "last_measured": "2022-11-01T12:30:00.000000"
+        },
+        "feeding": {
+            "amount_kg": 5.5,
+            "cron_schedule": "0 */6 * * *",
+            "last_measured": "2022-11-02T11:00:00.000000"
+        },
+        "has_calves": true,
+        "farm_id": "F001",
+        "country": "Spain",
+        "company": "VacaLechera"
+    },
+    {
+        "name": "Kimi Raikkonen",
+        "sex": "Male",
+        "birthdate": "2018-10-17T17:15:00.000000",
+        "condition": "Healthy",
+        "weight": {
+            "mass_kg": 1150,
+            "last_measured": "2022-11-01T10:00:00.000000"
+        },
+        "feeding": {
+            "amount_kg": 6,
+            "cron_schedule": "0 */5 * * *",
+            "last_measured": "2022-11-02T09:30:00.000000"
+        },
+        "has_calves": true,
+        "farm_id": "F002",
+        "country": "Switzerland",
+        "company": "Milka"
+    },
+    {
+        "name": "Fernando Alonso",
+        "sex": "Female",
+        "birthdate": "2020-07-14T11:30:00.000000",
+        "condition": "Healthy",
+        "weight": {
+            "mass_kg": 940,
+            "last_measured": "2022-11-01T08:45:00.000000"
+        },
+        "feeding": {
+            "amount_kg": 4,
+            "cron_schedule": "0 */4 * * *",
+            "last_measured": "2022-11-02T08:30:00.000000"
+        },
+        "milk_production": {
+            "last_milk": "2022-11-02T07:00:00.000000",
+            "cron_schedule": "0 7,11,15,19 * * *",
+            "amount_l": 4
+        },
+        "has_calves": false,
+        "farm_id": "F003",
+        "country": "France",
+        "company": "La Vaca que Ríe"
+    },
+    {
+        "name": "Carlos Sainz",
+        "sex": "Male",
+        "birthdate": "2019-06-01T03:45:00.000000",
+        "condition": "Healthy",
+        "weight": {
+            "mass_kg": 1090,
+            "last_measured": "2022-11-01T11:15:00.000000"
+        },
+        "feeding": {
+            "amount_kg": 5.5,
+            "cron_schedule": "0 */6 * * *",
+            "last_measured": "2022-11-02T10:00:00.000000"
+        },
+        "has_calves": false,
+        "farm_id": "F001",
+        "country": "Spain",
+        "company": "VacaLechera"
+    },
+    {
+        "name": "Valtteri Bottas",
+        "sex": "Male",
+        "birthdate": "2020-01-29T09:00:00.000000",
+        "condition": "Healthy",
+        "weight": {
+            "mass_kg": 1060,
+            "last_measured": "2022-11-01T09:30:00.000000"
+        },
+        "feeding": {
+            "amount_kg": 5,
+            "cron_schedule": "0 */5 * * *",
+            "last_measured": "2022-11-02T09:00:00.000000"
+        },
+        "has_calves": true,
+        "farm_id": "F003",
+        "country": "France",
+        "company": "La Vaca que Ríe"
     }
 ]
