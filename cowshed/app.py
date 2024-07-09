@@ -64,10 +64,10 @@ def get_cow(name):
 @app.route('/cows/sex/<sex>', methods=['GET'])
 def get_sex(sex):
     cows = read_data()
-    cow = next((cow for cow in cows if cow['sex'] == sex), None)
-    if cow is None:
+    filtered_cows = [cow for cow in cows if cow['sex'].lower() == sex.lower()]
+    if not filtered_cows:
         abort(404)
-    return jsonify(cow)
+    return jsonify(filtered_cows)
 
 @app.route('/cows', methods=['POST'])
 def create_cow():
