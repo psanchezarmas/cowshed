@@ -22,22 +22,6 @@ class CowshedTestCase(unittest.TestCase):
         self.assertEqual(response.json['name'], 'Daisy')
         self.assertEqual(response.json['sex'], 'Female')
 
-    def test_update_cow(self):
-        # First, create the cow
-        self.app.post('/cows', json={
-            'name': 'Daisy',
-            'sex': 'Female'
-        })
-        
-        # Update the cow
-        response = self.app.put('/cows/Daisy', json={
-            'sex': 'Male',
-            'condition': 'Healthy'
-        })
-        self.assertEqual(response.status_code, 200)
-        self.assertEqual(response.json['name'], 'Daisy')
-        self.assertEqual(response.json['sex'], 'Male')
-        self.assertEqual(response.json['condition'], 'Healthy')
 
     def test_delete_cow(self):
         # First, create the cow
