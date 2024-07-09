@@ -22,3 +22,12 @@ run-cowshed
 ## Let's find out and discover Miss Cow 2024!
 
 ![alt text](public/img/image.png)
+
+
+## Documentation
+
+https://flask.palletsprojects.com/en/3.0.x/
+
+https://medium.com/@moraneus/python-flask-a-comprehensive-guide-from-basic-to-advanced-fbc6ec9aa5f7
+
+https://docs.pydantic.dev/latest/
